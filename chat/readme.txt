@@ -1,3 +1,5 @@
+//This webchat based on node
+
 Go to chat directory.
 Install dependencies: npm install
 Start MongoDB with command: sudo mongod --smallfile
