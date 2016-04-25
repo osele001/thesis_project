@@ -8,11 +8,11 @@ var parameters = {
 
 // Create the WebSocket server
 var ipaddress = 'localhost';
-var WebSocketServer = require('/usr/local/lib/node_modules/ws').Server,
+var WebSocketServer = require('./node_modules/ws').Server,
 	wss = new WebSocketServer({host: ipaddress, port: 9000});
 
 // Database connection
-var MongoClient = require('/usr/local/lib/node_modules/mongodb').MongoClient,
+var MongoClient = require('./node_modules/mongodb').MongoClient,
 	format = require('util').format;
 
 var userListDB, chatDB;
