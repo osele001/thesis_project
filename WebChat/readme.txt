@@ -1,2 +1,3 @@
-To launch cd to WebChat folder and type command in terminal
-sudo mvn package embedded-glassfish:run
+To launch cd to WebChat folder and type commands in terminal.
+Start MongoDB with command: sudo service mongod start
+Deploy the server: sudo mvn package embedded-glassfish:run
