@@ -1,3 +1,4 @@
-To launch specify (dependencies) the path to node_modules on server.js file: ws and mongodb.
+Go to chat directory.
+Install dependencies: npm install
 Start MongoDB with command: sudo mongod --smallfile
-Start the server.js file with command: node ./server.js
+Start the server.js file with command: npm start
