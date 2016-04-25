@@ -1,0 +1,16 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Chat with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sergey Levenets",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.1.16",
+    "ws": "^1.1.0"
+  }
+}
